@@ -1,8 +1,10 @@
 using EasyOpenVR.Utils;
+using TypeGen.Core.TypeAnnotations;
 using Valve.VR;
 
 namespace OpenVR2WS.Input;
 
+[ExportTsInterface]
 public class DataMoveSpace
 {
     public int DurationMs = 0;
