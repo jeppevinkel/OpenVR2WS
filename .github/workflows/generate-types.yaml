@@ -41,12 +41,6 @@ jobs:
       - name: Generate TypeScript
         run: dotnet dotnet-typegen generate -p OpenVR2WS
         
-      - name: LS
-        run: |
-          ls
-          cd OpenVR2WS/types
-          ls
-
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
