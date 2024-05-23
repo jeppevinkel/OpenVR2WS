@@ -44,11 +44,11 @@ jobs:
       - name: LS
         run: |
           ls
-          cd types
+          cd OpenVR2WS/types
           ls
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: Types
-          path: ./types
+          path: OpenVR2WS/types
